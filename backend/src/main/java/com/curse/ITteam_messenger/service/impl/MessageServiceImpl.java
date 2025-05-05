@@ -29,9 +29,6 @@ public class MessageServiceImpl implements MessageService {
     private final MessageRepository messageRepository;
     private final UserRepository userRepository;
     private final ChatRepository chatRepository;
-
-
-
     private final FileAttachmentRepository fileRepo;
     @Value("${file.upload-dir}")
     private String uploadDir;
